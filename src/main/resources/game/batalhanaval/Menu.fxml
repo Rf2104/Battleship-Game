@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #424874; -fx-border-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="playButton" layoutX="225.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleJogarButtonAction" prefHeight="39.0" prefWidth="150.0" text="Jogar">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font></Button>
+      <TextField fx:id="nome1" layoutX="70.0" layoutY="243.0" />
+      <TextField fx:id="nome2" layoutX="378.0" layoutY="243.0" />
+      <Label fx:id="titleLabel" contentDisplay="CENTER" layoutX="51.0" layoutY="14.0" text="Batalha Naval" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="65.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="170.0" text="Jogador 1" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="212.0" text="Nome" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="212.0" text="Nome" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="403.0" layoutY="170.0" text="Jogador 2" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff0c" height="150.0" layoutX="32.0" layoutY="139.0" mouseTransparent="true" stroke="#424874" strokeType="INSIDE" strokeWidth="0.0" width="226.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff0c" height="150.0" layoutX="339.0" layoutY="139.0" mouseTransparent="true" stroke="WHITE" strokeWidth="0.0" width="226.0" />
+   </children>
+</AnchorPane>
